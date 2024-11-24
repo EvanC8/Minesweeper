@@ -40,7 +40,7 @@ This is a mobile adapation of the popular [Minesweeper](https://en.wikipedia.org
 The goal of the game is to reveal all space on the board without touching a mine. The number shown on a cell represents the number of mines within a one block radius of that cell. With this in mind, a player can deduce where mines are hidden. The user can then mark the cell believed to be a mine with a flag. With the clock running, it's all about how fast the player can win without falling vicitim to a mine explosion!!
 
 ### First Move
-The board is represented by a 2D array of cells. At this stage, no cells have been assigned to mines. When the player first tappes the board, mines are then randomly placed surrounding the area of the tap. Each time a mine is placed, the value of all adjacent cells is incremented. Then, `recursion` is used to reveal all empty cells (cells with value of 0) and the bordering cells surrounding the user's tap location in a staggered fasion, providing the user with a starting point. The stopwatch starts. 
+The board is represented by a 2D array of cells. At this stage, no cells have been assigned to mines. When the player first taps the board, mines are then randomly placed surrounding the area of the tap. Each time a mine is placed, the value of all adjacent cells is incremented. Then, `recursion` is used to reveal all empty cells (cells with value of 0) and the bordering cells surrounding the user's tap location in a staggered fasion, providing the user with a starting point. The stopwatch starts. 
 
 # Next Steps
 * Add more animation and visual effects for a more interactive and rewarding player experience.
