@@ -34,7 +34,7 @@ This is a mobile adapation of the popular [Minesweeper](https://en.wikipedia.org
 
 # How it works
 
-<img src="https://github.com/EvanC8/Minesweeper/blob/main/showcase1.jpg?raw=true" width="500">
+<img src="https://github.com/EvanC8/Minesweeper/blob/main/showcase1.jpg?raw=true" height="250"> <img src="https://github.com/EvanC8/Minesweeper/blob/main/showcase3.jpg?raw=true" height="250">
 
 ### Gameplay
 The goal of the game is to reveal all space on the board without touching a mine. The number shown on a cell represents the number of mines within a one block radius of that cell. With this in mind, a player can deduce where mines are hidden. The user can then mark the cell believed to be a mine with a flag. With the clock running, it's all about how fast the player can win without falling vicitim to a mine explosion!!
